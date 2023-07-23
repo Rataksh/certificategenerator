@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+@media print{
+  .no-print, .no-print *{
+    display: none !important;
+  }
+  .print-m-0{
+    margin: 0 !important;
+  }
+}
+
+.btn{
+  padding: 10px 17px;
+  border-radius: 3px;
+  background: #f4b71a;
+  border: none;
+  font-size: 12px;
+  margin: 10px 5px;
+}
+
+.toolbar{
+  background: #333;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+.cert-container {
+  padding-top: 50px;
+  margin:65px 0 10px 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.cert-gen {
+  padding-top: 130px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.cert {
+  width:80%;
+  height:60%;
+  padding:15px 20px;
+  text-align:center;
+  position: relative;
+  z-index: -1;
+}
+
+.cert-bg {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.cert-content {
+  width:500px;
+  height:310px;
+  padding:60px 50px 0px 50px;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size:15px;
+}
+
+p {
+  font-size:25px;
+}
+
+small {
+  font-size: 7px;
+  line-height: 2px;
+}
+
+.bottom-txt {
+  padding: 5px 2px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.bottom-txt * {
+  white-space: nowrap !important;
+}
+
+.other-font {
+  font-family: Cambria, Georgia, serif;
+  font-style: italic;
+}
+
+.ml-215 {
+  margin-left: 215px;
+}
